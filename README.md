@@ -1,6 +1,6 @@
 # Shard-Elytra
 
-We use this data pack to control when and where a player can equip an elytra on our private server. We landed on allowin elytras anywhere in The End, Nether, our Spawn, and anywhere within the range of a beacon.
+We use this data pack to control when and where a player can equip an elytra on our private server. We landed on allowing elytras anywhere in The End, Nether, and anywhere within the range of a beacon.
 
 ### notice
 
