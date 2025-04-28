@@ -1,6 +1,6 @@
 {
-    "pack":{
-        "pack_format": 48,
-        "description": "You can only fly with an elytra if you have a beacon effect. By ThijquintNL."
-    }
+  "pack": {
+    "pack_format": 48,
+    "description": "Controls when and where a player can use an elytra."
+  }
 }
