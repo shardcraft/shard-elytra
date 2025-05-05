@@ -48,7 +48,7 @@ execute as @a[scores={elytraWarning=439}] run damage @s 1
 execute at @a[scores={elytraWarning=478}] run playsound minecraft:item.mace.smash_ground ambient @a ~ ~ ~ 2 2
 execute as @a[scores={elytraWarning=478}] run damage @s 1
 execute at @a[scores={elytraWarning=500}] run playsound minecraft:entity.firework_rocket.large_blast ambient @a ~ ~ ~ 2 1
-execute as @a[scores={elytraWarning=500}] if items entity @s armor.chest elytra run function shard_elytra:remove_elytra with entity @s Inventory[{Slot:102b}]
+execute as @a[scores={elytraWarning=500},gamemode=!creative] if items entity @s armor.chest elytra run function shard_elytra:remove_elytra with entity @s Inventory[{Slot:102b}]
 
 # Reset scoreboards if player lands.
 scoreboard players set @a[scores={flying=0}] elytraWarning 0
